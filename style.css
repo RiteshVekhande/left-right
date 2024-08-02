@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    border: 3px solid rgb(255, 0, 0);
+}
+
+div {
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+}
+
+.left {
+    background-image: url(https://media.istockphoto.com/id/1488944909/photo/environment-concept-green-glass-globe-with-a-tree-in-the-forest-with-sunlight-sustainability.webp?b=1&s=170667a&w=0&k=20&c=f89zMjUr7FldJzgS0p8mJyuTxBWgvhv0kBQL7fcSnjs=);
+}
+
+.right {
+    background-image: url(https://media.istockphoto.com/id/1403500817/photo/the-craggies-in-the-blue-ridge-mountains.webp?b=1&s=170667a&w=0&k=20&c=-UWLqQI8oIx2-sOdWemeJ4Hy1hGZi1UPy-qcivJXgyM=);
+}
